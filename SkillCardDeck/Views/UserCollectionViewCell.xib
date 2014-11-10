@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" id="TAU-JO-5yM" customClass="UserCollectionViewCell" customModule="SkillCardDeck" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="275" height="248"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="275" height="248"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sru-Qs-JsT">
+                        <rect key="frame" x="-10" y="0.0" width="295" height="248"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="sru-Qs-JsT" firstAttribute="top" secondItem="TAU-JO-5yM" secondAttribute="top" id="5ig-ID-mxw"/>
+                <constraint firstItem="sru-Qs-JsT" firstAttribute="leading" secondItem="TAU-JO-5yM" secondAttribute="leading" constant="-10" id="7Y0-qi-5IK"/>
+                <constraint firstAttribute="trailing" secondItem="sru-Qs-JsT" secondAttribute="trailing" constant="-10" id="iH8-Ga-2Wj"/>
+                <constraint firstAttribute="bottom" secondItem="sru-Qs-JsT" secondAttribute="bottom" id="yos-f2-f9c"/>
+            </constraints>
+            <size key="customSize" width="275" height="248"/>
+            <connections>
+                <outlet property="imageView" destination="sru-Qs-JsT" id="hoa-97-xEx"/>
+            </connections>
+            <point key="canvasLocation" x="282.5" y="274"/>
+        </collectionViewCell>
+    </objects>
+</document>
